@@ -1,0 +1,16 @@
+<datastore-indexes autoGenerate="false">
+	<datastore-index kind="HealthReport" ancestor="false"
+		source="auto">
+		<property name="healthIncident" direction="asc" />
+		<property name="status" direction="asc" />
+		<property name="reportDateTime" direction="asc" />
+	</datastore-index>
+	<datastore-index kind="HealthReport" ancestor="false" 
+		source="auto">
+		<property name="healthIncident" direction="asc" />
+		<property name="pinCode" direction="asc" />
+		<property name="status" direction="asc" />
+		<property name="reportDateTime" direction="asc" />
+	</datastore-index>
+</datastore-indexes>
+
